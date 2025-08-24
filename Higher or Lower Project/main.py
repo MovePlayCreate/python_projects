@@ -38,5 +38,5 @@ def answer(person_a, person_b, choice, score):
             print(logo)
             print(f"Sorry, that's wrong. Final score: {score}")
 
-
+# call functions that run the game 
 game(compare_a, compare_b, "", 0)
