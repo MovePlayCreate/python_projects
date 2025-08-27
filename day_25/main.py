@@ -17,8 +17,10 @@ import pandas
 
 
 
-# def celcius_to_fahrenheit(celcius):
-#     return celcius * 1.8 + 32
+def celcius_to_fahrenheit(celcius):
+    return celcius * 1.8 + 32
+
+print(celcius_to_fahrenheit(100))
 # #
 #
 # data = pandas.read_csv("weather_data.csv")
