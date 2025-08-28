@@ -4,9 +4,6 @@ from random import choice, shuffle, randint
 import pyperclip
 import json
 
-
-BLACK = "#000000"
-WHITE = "#f2f2f2"
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
     # Password Generator Project
@@ -43,7 +40,6 @@ def find_password():
             messagebox.showinfo(title=website, message=f"Email: {email}\nPassword: {password}")
         else:
             messagebox.showinfo(title="Error", message=f"No Details for the {website} exists")
-
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save():
