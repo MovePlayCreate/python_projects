@@ -70,6 +70,7 @@ black_squirrels = len(data[data["Primary Fur Color"] == "Black"])
 red_squirrels = len(data[data["Primary Fur Color"] == "Cinnamon"])
 print(gray_squirrels, black_squirrels, red_squirrels)
 
+# lookup how to save a new file using pandas
 data_dict = {
     "Fur Color": ["Gray", "Black", "Cinnamon"],
     "Count": [gray_squirrels, black_squirrels, red_squirrels]
