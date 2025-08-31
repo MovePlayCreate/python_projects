@@ -12,3 +12,4 @@ def is_prime(num):
 is_prime(27)
 is_prime(29)
 is_prime(31)
+#check when at home with pycharm
