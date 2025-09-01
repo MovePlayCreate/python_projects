@@ -16,6 +16,10 @@ with open("./Input/Letters/starting_letter.txt", mode="r") as invite:
     invitation = invite.read()
     #print(invitation.replace("[name]", names[2].strip()))
 
+with open("./Input/Letters/starting_letter.txt", mode="a") as letter:
+    letter.write("does this work?)
+    
+
 for name in names:
     clean_name = name.strip()
     with open(f"./Output/ReadyToSend/{clean_name}_invitation.txt", mode="w") as ready_send:
